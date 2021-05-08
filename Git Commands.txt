@@ -1,0 +1,35 @@
+$git init
+initialize local git repository
+
+Clone
+$ git clone https://github.com/Shivansh1998/Testgit.git
+
+Setting username and email
+$ git config --global user.name "Shivansh1998"
+$ git config --global user.email "rastogishivansh98@gmail.com"
+
+$ cd Testgit/
+$ ls
+ 
+Staged
+$ git add test.txt
+for all 
+$ git add .
+
+Remove
+$ git rm --cached abc.txt
+
+RESET
+$ git reset
+
+STATUS(check after staged and commit) check status of working tree
+$ git status
+
+COMMIT
+$ git commit -m "first commit" test.txt
+
+get reference
+$ git show-ref
+
+PUSH
+$ git push -u origin main/master
